@@ -1,2 +1,0 @@
-# alltech
-tech blub
