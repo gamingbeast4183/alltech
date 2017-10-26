@@ -1,75 +1,76 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<title>News Website</title>
-	</head>
-
-	<body bgcolor="#ffffff">
-
-		<style>
-			#imglogo {
-				height: 77px;
-				width: 77px;
-			}
-			#navbar {
-				background-color: black;
-				height: 77px;
-				position: fixed;
-				top: 0;
-				left: 0;
-				right: 0;
-				width: 100%;
-			}
-			.menu-item {
-    		display: inline;
-    		width: auto;
-			}
-			.menu-item a {
+  <head>
+    <title>AllTech Reviews</title>
+  </head>
+  <body bgcolor="#ffffff">
+    <style>
+      #img {
+      	height: 40px;
+      	width: 40px;
+				float: left;
+      }
+			ul.horizontal {
     		width: 100%;
-    		font-weight: bold;
-    		color: #FFFFFF;
-    		font-family: Arial, Helvetica;
-    		text-decoration: none;
-    		text-transform: uppercase;
+    		float: left;
+    		margin: 0 0 3em 0;
+    		padding: 0;
+    		list-style: none;
 			}
-		</style>
-		<div id="navbar">
-			<div id="logobar">
-				<a href="main code.html" id="logolink">
-					<img src="../image res/AllTech logo.png" id="imglogo"/>
-				</a>
-			</div>
-			<div>
-				<ul>
-	        <li class="menu-item">
-						<a href="https://youtu.be/dQw4w9WgXcQ">Smartphones</a>
-	    		</li>
-	      	<li class="menu-item">
-						<a href="https://youtu.be/dQw4w9WgXcQ">Computers</a>
-	      	</li>
-	      	<li class="menu-item">
-						<a href="https://youtu.be/dQw4w9WgXcQ">Epic App Battles of History</a>
-	        </li>
-	      	<li class="menu-item">
-						<a href="https://youtu.be/dQw4w9WgXcQ">Tutorials</a>
-	      	</li>
-	    	</ul>
-			</div>
+			ul.horizontal li {
+    		float: left;
+			}
 
-</div>
-			<!--
-			<div class="wrap">
-   			<div class="search">
-      		<input type="text" class="searchTerm" placeholder="What are you looking for?">
-      		<button type="submit" class="searchButton">
-        		<i class="fa fa-search"></i>
-     			</button>
-   			</div>
- 		</div>
-	-->
-		</div>
+			ul.horizontal li a {
+    		display: block;
+    		padding: 8px 15px;
+    		text-decoration: none;
+    		font-weight: bold;
+    		color: #069;
+    		border-right: 1px solid #ccc;
+			}
+			ul.horizontal li a:hover {
+    		color: #c00;
+    		background-color: #fff;
+			}
+			ul.horizontal li a.active {
+    		background-color: rgb(201, 205, 248);
+			}
+      #navbar {
+      	background-color: black;
+      	height: 77px;
+      	position: fixed;
+      	top: 0;
+      	left: 0;
+      	right: 0;
+      	width: 100%;
+      }
+    </style>
+    <div id="navbar">
+      <ul class="horizontal" id="nav">
+        <a href="main code.html" id="logolink">
+        <img id="img" src="../image res/AllTech logo.png" id="imglogo"/>
+        </a>
+				<li><a href="#">Smartphones</a></li>
+				<li><a href="#">Computers</a></li>
+				<li><a href="#">Epic App Battles of History</a></li>
+				<li><a href="#">Tutorials</a></li>
+      </ul>
+    </div>
+    </div>
+    <!--
+      <div class="wrap">
+      			<div class="search">
+         		<input type="text" class="searchTerm" placeholder="What are you looking for?">
+         		<button type="submit" class="searchButton">
+           		<i class="fa fa-search"></i>
+        			</button>
+      			</div>
+      </div>
+      -->
+    </div>
 		<center>
-			<a href="../articles/article1.html"><IMG align="left"  HEIGHT="1000" WIDTH="1000" SRC="newiphone8.png"></a>
+			<a href="../articles/article1.html"><IMG align="left"  HEIGHT="1000" SRC="../image res/iphone x 8 8 plus.png"></a>
 			<h3>Headline 1</h3>
 			<h6>Article Summary</h6>
 			<a href="../articles/article2.html"><IMG align="left" HEIGHT="500" WIDTH="300" SRC="https://lh3.googleusercontent.com/-2oN0IwjAI2s/We1r-KR_mxI/AAAAAAAASYA/4IpUR2zS2dQM78D8ow1kzAT4IOmoLCFIACK8BGAs/s512/2017-10-22.jpg"></a>
@@ -86,11 +87,5 @@
 			<h6>Article Summary</h6>
 			<!--<footer><p>&copy; 2017 AllTech Reviews</p>   </footer>-->
 		</center>
-
-	</body>
-
-
-
-
-
+  </body>
 </html>
