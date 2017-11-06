@@ -3,6 +3,7 @@
   <head>
     <title>AllTech Reviews</title>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body style="background-color: #F4F6F6;">
     <style>
@@ -67,12 +68,12 @@
         border-radius: 10px;
         font-family: Ubuntu, sans-serif;
         opacity: 0.5;
+        transition: opacity 2s, background-color 2s;
       }
 
       #BackToTop:hover {
         background-color: black;
         opacity: 1;
-        transition: opacity 2s;
       }
     </style>
     <div id="navbar">
@@ -100,37 +101,40 @@
     -->
 		<center>
 			<a href="../articles/article1.html"><IMG align="left"  HEIGHT="750" SRC="../image res/iphone x 8 8 plus.png"></a>
-			
+
 			<a href="../articles/article2.html"><IMG align="left" HEIGHT="500" SRC="https://lh3.googleusercontent.com/-2oN0IwjAI2s/We1r-KR_mxI/AAAAAAAASYA/4IpUR2zS2dQM78D8ow1kzAT4IOmoLCFIACK8BGAs/s512/2017-10-22.jpg"></a>
-			
+
 			<a href="../articles/article3.html"><IMG align="left" HEIGHT="200" SRC="https://d1ic4altzx8ueg.cloudfront.net/finder-au/wp-uploads/2017/09/iPhone8Plus_top_738.jpg"></a>
-			
+
 			<a href="../articles/article4.html"><IMG HEIGHT="300" SRC="../image res/launcherimage.png"></a>
-		
+
 			<a href="../articles/article5.html"><IMG align="right" HEIGHT="300" WIDTH="300" SRC="https://s3.amazonaws.com/youngwonks/logo.png"></a>
-		
+
 			<a href="../articles/article5.html"><IMG HEIGHT="300" WIDTH="300" SRC="https://s3.amazonaws.com/youngwonks/logo.png"></a>
-			
+
 			<a href="../articles/article5.html"><IMG align="left" HEIGHT="300" WIDTH="300" SRC="https://s3.amazonaws.com/youngwonks/logo.png"></a>
-		
       <!--
 			<footer><p>&copy; AllTech Reviews</p></footer>
       -->
       <button onclick="topFunction()" id="BackToTop"><strong>Back to top</strong></button>
       <script>
-        window.onscroll = function() {scrollFunction()};
-        function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("BackToTop").style.display = "block";
-          } else {
-            document.getElementById("BackToTop").style.display = "none";
-          }
-        }
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
-        </script>
+      $("#BackToTop").hide();
+        $(function () {
+          $(window).scroll(function () {
+			      if ($(this).scrollTop() > 10) {
+				      $('#BackToTop').fadeIn();
+			      } else {
+				      $('#BackToTop').fadeOut();
+			      }
+		      });
+		      $('#BackToTop').click(function () {
+			      $('body,html').animate({
+				      scrollTop: 0
+			      }, 800);
+			      return false;
+		      });
+	      });
+    </script>
 		</center>
   </body>
 </html>
