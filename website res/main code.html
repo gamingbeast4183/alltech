@@ -11,7 +11,7 @@
  </head>
  <body style="background-color: #F4F6F6;">
   <style>
-   #img {
+   #logo {
       	height: 60px;
       	width: 60px;
 				float: left;
@@ -82,8 +82,8 @@
   </style>
   <div id="navbar">
    <ul class="horizontal" id="nav">
-    <a href="main code.html" id="logolink">
-     <img id="imglogo" src="../image res/AllTech logo.png"/>
+    <a href="main code.html">
+     <img id="logo" src="../image res/AllTech logo.png"/>
     </a>
     <div id="navlinks">
      <li>
@@ -156,22 +156,22 @@
    </strong>
   </button>
   <script>
-  $("#BackToTop").hide();
-  $(function () {
-    $(window).scroll(function () {
-		  if ($(this).scrollTop() > 10) {
-		    $('#BackToTop').fadeIn();
-			} else {
-	      $('#BackToTop').fadeOut();
-	    }
-		});
-		$('#BackToTop').click(function () {
-		  $('body,html').animate({
-			  scrollTop: 0;
-			}, 800);
-			return false;
-		});
-	});
+   $("#BackToTop").hide();
+        $(function () {
+          $(window).scroll(function () {
+			      if ($(this).scrollTop() > 10) {
+				      $('#BackToTop').fadeIn();
+			      } else {
+				      $('#BackToTop').fadeOut();
+			      }
+		      });
+		      $('#BackToTop').click(function () {
+			      $('body,html').animate({
+				      scrollTop: 0
+			      }, 800);
+			      return false;
+		      });
+	      });
   </script>
  </body>
 </html>
