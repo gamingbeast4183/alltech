@@ -1,6 +1,6 @@
-# AllTech Reviews
+ # AllTech Reviews
 
-tech blub
--sravith the slouch
--oren the ouch
--prem the pouch
+tech blub  
+-sravith the slouch  
+-oren the ouch  
+-prem the pouch  
