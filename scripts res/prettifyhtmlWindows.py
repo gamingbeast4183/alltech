@@ -1,5 +1,5 @@
-from subprocess import call
-call("pip install --upgrade beautifulsoup4")
+import os
+os.system("pip install --upgrade beautifulsoup4")
 from bs4 import BeautifulSoup as BS
 html = raw_input("HTML file? \t")
 f = open(html,"r+")

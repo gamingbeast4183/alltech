@@ -1,52 +1,169 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Computers</title>
-  <meta charset=UTF-8>
-</head>
-<body>
+ <head>
+  <title>
+   Computers
+  </title>
+  <meta charset="utf-8"/>
+ </head>
+ <body>
+ <style>
+  #logo {
+      height: 60px;
+      width: 60px;
+      float: left;
+     }
+    .horizontal {
+       width: 100%;
+      float: left;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+       overflow: hidden;
+    }
+    .horizontal li {
+      float: left;
+      font-family: Ubuntu, sans-serif;
+      font-size: 23px;
+       padding-top: 7px;
+    }
+
+    .horizontal li a {
+      display: block;
+      padding: 8px 20px;
+      text-decoration: none;
+      font-weight: bold;
+       color: white;
+    }
+     #navlinks {
+       float: center;
+     }
+    .horizontal li a:hover {
+      color: #c00;
+      background-color: #fff;
+    }
+    .horizontal li a.active {
+      background-color: rgb(201, 205, 248);
+    }
+     #navbar {
+      background-color: black;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+     }
+     #BackToTop {
+       display: none;
+       position: fixed;
+       bottom: 20px;
+       right: 30px;
+       z-index: 99;
+       border: none;
+       outline: none;
+       background-color: red;
+       color: white;
+       cursor: pointer;
+       padding: 15px;
+       border-radius: 10px;
+       font-family: Ubuntu, sans-serif;
+       opacity: 0.5;
+       transition: opacity 2s, background-color 2s;
+     }
+
+     #BackToTop:hover {
+       background-color: black;
+       opacity: 1;
+     }
+
+     .tooltip {
+         position: relative;
+         display: inline-block;
+         border-bottom: 1px dotted black;
+     }
+
+     .tooltip .tooltiptext {
+         visibility: hidden;
+         width: 120px;
+         background-color: black;
+         color: #fff;
+         text-align: center;
+         border-radius: 6px;
+         padding: 5px 0;
+
+         /* Position the tooltip */
+         position: absolute;
+         z-index: 1;
+     }
+
+     .tooltip:hover .tooltiptext {
+         visibility: visible;
+     }
+ </style>
   <div id="navbar">
- <ul class="horizontal" id="nav">
-  <a href="main code.html">
-   <img id="logo" src="../image res/AllTech logo.png"/>
-  </a>
-  <div id="navlinks">
-   <li>
-    <a href="smartphones.html">
-     Smartphones
+   <ul class="horizontal" id="nav">
+    <a href="main code.html">
+     <img id="logo" src="../image res/AllTech logo.png"/>
     </a>
-   </li>
-   <li>
-    <a href="computers.html">
-     Computers
-    </a>
-   </li>
-   <li>
-    <a href="apps.html">
-     Epic App Battles of History
-    </a>
-   </li>
-   <li>
-    <a href="tutorials-genericinfo.html">
-     Tutorials and Generic Info
-    </a>
-   </li>
+    <div id="navlinks">
+     <li>
+      <a href="smartphones.html">
+       Smartphones
+      </a>
+     </li>
+     <li>
+      <a href="computers.html">
+       Computers
+      </a>
+     </li>
+     <li>
+      <a href="apps.html">
+       Epic App Battles of History
+      </a>
+     </li>
+     <li>
+      <a href="tutorials-genericinfo.html">
+       Tutorials and Generic Info
+      </a>
+     </li>
+    </div>
+   </ul>
   </div>
- </ul>
-</div>
-  <a href="../articles/article1.html"><IMG align="center"  HEIGHT="648" SRC="http://4.bp.blogspot.com/-c5HB9jpnxTc/TvXskHoQazI/AAAAAAAAAOU/KP_AhhGe6rU/s1600/hot+santa.jpg"></a>
-  <a href="../articles/article1.html"><IMG align="center"  HEIGHT="505" SRC="http://4.bp.blogspot.com/-c5HB9jpnxTc/TvXskHoQazI/AAAAAAAAAOU/KP_AhhGe6rU/s1600/hot+santa.jpg"></a>
-  <a href="../articles/article1.html"><IMG align="center"  HEIGHT="505" SRC="http://4.bp.blogspot.com/-c5HB9jpnxTc/TvXskHoQazI/AAAAAAAAAOU/KP_AhhGe6rU/s1600/hot+santa.jpg"></a>
-  <a href="../articles/article1.html"><IMG align="center" HEIGHT="505" SRC="http://4.bp.blogspot.com/-c5HB9jpnxTc/TvXskHoQazI/AAAAAAAAAOU/KP_AhhGe6rU/s1600/hot+santa.jpg"></a>
-
-  <h1 align="left">article title</h1>
-  <h1 align="center">article title</h1>
-  <h1 align="center">article title</h1>
-  <h1 align="right">article title</h1>
-
-  <a href="../articles/article1.html"><IMG  HEIGHT="300" SRC="http://4.bp.blogspot.com/-c5HB9jpnxTc/TvXskHoQazI/AAAAAAAAAOU/KP_AhhGe6rU/s1600/hot+santa.jpg"></a>
-  <h3 align="center">article stuff</h3>
-  <a href="../articles/article1.html"><IMG  HEIGHT="300" SRC="http://4.bp.blogspot.com/-c5HB9jpnxTc/TvXskHoQazI/AAAAAAAAAOU/KP_AhhGe6rU/s1600/hot+santa.jpg"></a>
-  <h3 align="center">article stuff</h3>
-</body>
+  <a href="../articles/article1.html">
+   <img align="center" height="648" src="http://4.bp.blogspot.com/-c5HB9jpnxTc/TvXskHoQazI/AAAAAAAAAOU/KP_AhhGe6rU/s1600/hot+santa.jpg"/>
+  </a>
+  <a href="../articles/article1.html">
+   <img align="center" height="505" src="http://4.bp.blogspot.com/-c5HB9jpnxTc/TvXskHoQazI/AAAAAAAAAOU/KP_AhhGe6rU/s1600/hot+santa.jpg"/>
+  </a>
+  <a href="../articles/article1.html">
+   <img align="center" height="505" src="http://4.bp.blogspot.com/-c5HB9jpnxTc/TvXskHoQazI/AAAAAAAAAOU/KP_AhhGe6rU/s1600/hot+santa.jpg"/>
+  </a>
+  <a href="../articles/article1.html">
+   <img align="center" height="505" src="http://4.bp.blogspot.com/-c5HB9jpnxTc/TvXskHoQazI/AAAAAAAAAOU/KP_AhhGe6rU/s1600/hot+santa.jpg"/>
+  </a>
+  <h1 align="left">
+   article title
+  </h1>
+  <h1 align="center">
+   article title
+  </h1>
+  <h1 align="center">
+   article title
+  </h1>
+  <h1 align="right">
+   article title
+  </h1>
+  <a href="../articles/article1.html">
+   <img height="300" src="http://4.bp.blogspot.com/-c5HB9jpnxTc/TvXskHoQazI/AAAAAAAAAOU/KP_AhhGe6rU/s1600/hot+santa.jpg"/>
+  </a>
+  <h3 align="center">
+   article stuff
+  </h3>
+  <a href="../articles/article1.html">
+   <img height="300" src="http://4.bp.blogspot.com/-c5HB9jpnxTc/TvXskHoQazI/AAAAAAAAAOU/KP_AhhGe6rU/s1600/hot+santa.jpg"/>
+  </a>
+  <h3 align="center">
+   article stuff
+  </h3>
+ </body>
 </html>
