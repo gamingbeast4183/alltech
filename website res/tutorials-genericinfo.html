@@ -164,5 +164,28 @@
   <h3 align="center">
    article stuff
   </h3>
+  <button id="BackToTop" onclick="topFunction()">
+   <strong>
+    Back to top
+   </strong>
+  </button>
+  <script>
+   $("#BackToTop").hide();
+        $(function () {
+          $(window).scroll(function () {
+			      if ($(this).scrollTop() > 10) {
+				      $('#BackToTop').fadeIn();
+			      } else {
+				      $('#BackToTop').fadeOut();
+			      }
+		      });
+		      $('#BackToTop').click(function () {
+			      $('body,html').animate({
+				      scrollTop: 0
+			      }, 800);
+			      return false;
+		      });
+	      });
+  </script>
  </body>
 </html>
