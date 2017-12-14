@@ -183,6 +183,29 @@ customization</p>
 <h1 class="Header">Conclusion</h1>
 
 <p class="Text">Overall, these eight launchers are great for sprucing up your home screen a bit. We won't try to push you toward any specific launcher, but these here are the basic facts. Good luck and happy customizing!</p>
-<button onclick="window.location.href='https://www.amazon.com/'">Buy Now!</button>
+
+  <button id="BackToTop" onclick="topFunction()">
+   <strong>
+    Back to top
+   </strong>
+  </button>
+  <script>
+   $("#BackToTop").hide();
+        $(function () {
+          $(window).scroll(function () {
+			      if ($(this).scrollTop() > 10) {
+				      $('#BackToTop').fadeIn();
+			      } else {
+				      $('#BackToTop').fadeOut();
+			      }
+		      });
+		      $('#BackToTop').click(function () {
+			      $('body,html').animate({
+				      scrollTop: 0
+			      }, 800);
+			      return false;
+		      });
+	      });
+  </script>
  </body>
  </html>
