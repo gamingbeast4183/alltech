@@ -1,47 +1,97 @@
 <!DOCTYPE html>
-+
+
 <html>
- +
- +
+
+
  <head>
   <meta charset="utf-8"/>
-  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"/>
-  +
+  <link href="../stylesheet res/Razer Phone.css" rel="stylesheet" rel="stylesheet"/>
+  <link href="../stylesheet res/navbar-and-b2t.css" rel="stylesheet"/>
+  <div id="navbar">
+   <ul class="horizontal" id="nav">
+    <a href="main code.html">
+     <img id="logo" src="../image res/AllTech logo.png"/>
+    </a>
+    <div id="navlinks">
+     <li>
+      <a href="smartphones.html">
+       Smartphones
+      </a>
+     </li>
+     <li>
+      <a href="computers.html">
+       Computers
+      </a>
+     </li>
+     <li>
+      <a href="apps.html">
+       Epic App Battles of History
+      </a>
+     </li>
+     <li>
+      <a href="tutorials-genericinfo.html">
+       Tutorials and Generic Info
+      </a>
+     </li>
+    </div>
+   </ul>
+  </div>
   <title>
-   Article 8 Name
+   Razer Phone
   </title>
-  +
+
  </head>
- +
- +
+
+
  <body>
-  +
-  <center>
-   <h3>
+
+   <h1 class="Header" id="Title">
     The Razer Phone
-   </h3>
-   <p>
+   </h1>
+   <p class="Text">
     If you haven't heard of this phone yet, Razer, the gaming company, decided it would step into the smartphone race of today by releasing its Razer phone, a power happy smartphone that is meant for gamers. Razer has had its share of success in gaming, at it still is. It is one of the most respected gaming companies today, and is very popular amongst gamers. It looks absolutely gorgeous, with its matte finish, and boxy look. I know that this year, many manufacturers are going to the tall 2:1 aspect ratio, or something close to that. And I honestly don't like it. Yes, the devices that are made in this form factor look nice, and when using regular Samsung apps, it looks fine. However, you start to use some android apps, and it looks kind of odd, at least that is what I think of it. Because this is for gaming, Razer made this in a 16:9 aspect ratio (thank God). It is very similar to the Nextbit Robin, which Razer bought earlier this year. Robin had a cool story, but not everyone needed the features it had.
    </p>
-   <h3>
+   <h1 class="Header">
     What's Inside
-   </h3>
-   <p>
+   </h1>
+   <p class="Text">
     As I said before, the Razer Phone is a power happy phone. It has a Qualcomm Snapdragon 835 chipset, paired with an Adreno 540 GPU, and 8 gigs of RAM. This is super powerful on paper, and it is in person. It comes with Android Nougat 7.1.1, and has Nova Launcher Prime as its homescreen. It is a really nice experience. These specs should last a while in the market, and just because a new phone comes out doesn't mean you should buy it, unless you actually need it. The Snapdragon 835 is a very powerful processor, and should last until 2 more chipsets are released by Qualcomm. The cameras also seem good on paper. It has a dual camera system, with 2 12-megapixel sensors, while one is a wide-angle lens and the other is a telephoto lens. It seems good right now, but testing is required to see what these cameras are really capable of. The phone seems really good on paper. I still need to test this completely, and I hope that this phone lives up to the hype it has created for me and all you techies out there.
    </p>
-   <h3>
+   <h1 class="Header">
     What This Means
-   </h3>
-   <p>
+   </h1>
+   <p class="Text">
     This means that we are going to have another great phone, which means more competitors, and lots more fun. I really can't wait to see what this phone is going to be able to do. I don't know what is the next thing that Razer will do with this phone or other phones in the future, but I am sure it will be good. We here at AllTech believe that this is a good phone, that is new and competitive, and will be a good purchase for anyone that is looking to buy a "fresh" phone.
    </p>
-  </center>
   <button onclick="window.location.href='https://www.amazon.com/'">
    Buy Now!
   </button>
-  +
- +
+  <strong>
+   Back to top
+  </strong>
+ </button>
+
+
+
+ <script>
+  $("#BackToTop").hide();
+       $(function () {
+         $(window).scroll(function () {
+           if ($(this).scrollTop() > 10) {
+             $('#BackToTop').fadeIn();
+           } else {
+             $('#BackToTop').fadeOut();
+           }
+         });
+         $('#BackToTop').click(function () {
+           $('body,html').animate({
+             scrollTop: 0
+           }, 800);
+           return false;
+         });
+       });
+ </script>
+
  </body>
- +
+
 </html>
