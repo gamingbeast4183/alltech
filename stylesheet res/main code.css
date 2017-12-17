@@ -4,29 +4,30 @@ to tell where each image is.
 
 Prem
 */
-#iPhoneX, #iPhone8 {
+#iPhoneX, #iPhone8, #Launchers, #RazerPhone {
   border: 10px solid black;
   border-radius: 10px;
   padding: 10px;
+  margin-top: 60px;
 }
 
 #iPhoneX {
   float: left;
   height: 650px;
-  margin-top: 60px;
-}
-
-#iPhone8 {
-  float: left;
-  height: 200px;
-  margin-top: 60px;
-  margin-left: 5px;
-  border: 10px solid black;
-  border-radius: 10px;
 }
 
 #iPhone8 {
   float: right;
   height: 200px;
-  padding-top: 30px;
+}
+
+#Launchers {
+  float: left;
+  height: 300px;
+  margin-left: 10px;
+}
+
+#RazerPhone {
+  height: 300px;
+  margin-left: 10px;
 }
