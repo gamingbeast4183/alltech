@@ -5,9 +5,9 @@ to tell where each image is.
 Prem
 */
 #iPhoneX, #iPhone8, #Launchers, #RazerPhone, #LGV30 {
-  border: 10px solid black;
-  border-radius: 10px;
-  padding: 10px;
+  border: 2px solid black;
+  border-radius: 2px;
+  padding: 2px;
   margin-top: 60px;
 }
 
