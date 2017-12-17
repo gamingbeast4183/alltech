@@ -1,5 +1,26 @@
+/* I added borders on some images, so it would be easier to see their concrete position on the page. We can choose to remove
+or to keep them, after every image is in the right place. But for now, let them stay where they are, because it's much easier
+to tell where each image is.
+
+Prem
+*/
+#iPhoneX, #iPhone8 {
+  border: 10px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 #iPhoneX {
   float: left;
-  height: 700px;
-  padding-top: 30px;
+  height: 650px;
+  margin-top: 60px;
+}
+
+#iPhone8 {
+  float: left;
+  height: 200px;
+  margin-top: 60px;
+  margin-left: 5px;
+  border: 10px solid black;
+  border-radius: 10px;
 }
