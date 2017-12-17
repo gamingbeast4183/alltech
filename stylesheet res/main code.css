@@ -4,10 +4,19 @@ to tell where each image is.
 
 Prem
 */
+
+
+
+/*
+This is Sravith
+I think we should have a border but lets not have it black, and lets keep it very very small. I think 1 pixel would be great.
+And we should also have the color be more subtle, maybe light grey would be nice...
+*/
+
 #iPhoneX, #iPhone8, #Launchers, #RazerPhone, #LGV30 {
-  border: 2px solid black;
-  border-radius: 2px;
-  padding: 2px;
+  border: 1px solid gray;
+  border-radius: 1px;
+  padding: 1px;
   margin-top: 60px;
 }
 
