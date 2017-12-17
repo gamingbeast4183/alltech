@@ -24,3 +24,9 @@ Prem
   border: 10px solid black;
   border-radius: 10px;
 }
+
+#iPhone8 {
+  float: right;
+  height: 200px;
+  padding-top: 30px;
+}
