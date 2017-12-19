@@ -1,21 +1,12 @@
-/* I added borders on some images, so it would be easier to see their concrete position on the page. We can choose to remove
-or to keep them, after every image is in the right place. But for now, let them stay where they are, because it's much easier
-to tell where each image is.
-
-Prem
-*/
-
-
-
-/*
-This is Sravith
-I think we should have a border but lets not have it black, and lets keep it very very small. I think 1 pixel would be great.
-And we should also have the color be more subtle, maybe light grey would be nice...
+/* Bruh did you even read the damn comment
+In English you can understand:
+bluhhh leave the damn borders alone so I can see where each goddamn image actually is, it makes it easier to position images
+that have borders you little kurwaa nigger
 */
 
 #iPhoneX, #iPhone8, #Launchers, #RazerPhone, #LGV30 {
-  border: 1px solid gray;
-  border-radius: 1px;
+  border: 10px solid black;
+  border-radius: 15px;
   padding: 1px;
   margin-top: 60px;
 }
