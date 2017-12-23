@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>
+   AllTech Reviews
+  </title>
+  <meta charset=UTF-8>
+  <link href="../stylesheet res/navbar-and-b2t.css" rel="stylesheet"/>
+  <link href="../stylesheet res/UbuntuWin10.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+ </head>
+ <body style="background-color: #F4F6F6;">
+  <div id="navbar">
+   <ul class="horizontal" id="nav">
+    <a href="main code.html">
+     <img id="logo" src="../image res/AllTech logo.png"/>
+    </a>
+    <div id="navlinks">
+     <li>
+      <a href="smartphones.html">
+       Smartphones
+      </a>
+     </li>
+     <li>
+      <a href="computers.html">
+       Computers
+      </a>
+     </li>
+     <li>
+      <a href="apps.html">
+       Epic App Battles of History
+      </a>
+     </li>
+     <li>
+      <a href="tutorials-genericinfo.html">
+       Tutorials and Generic Info
+      </a>
+     </li>
+    </div>
+   </ul>
+  </div>
+
+  <h1 class="Header" id="Title">Ubuntu vs. Windows 10 (and how to make the switch)</h1>
+  <h2 class="Header">What is Ubuntu?</h2>
+
+  <p class="Text">Ubuntu is a distribution of the Linux operating system. It shares many features with Windows and macOS, but is also extremely different. Ubuntu can be a terrific new experience for anyone who uses his or her computer frequently. Moreover, if used correctly, it can be a powerhouse of an OS. Some of the cool things about Ubuntu are: </p>
+
+  <ul style="list-style-type:disc">
+    <li class="Text">Ubuntu comes with a plethora of apps and packages that you would have to install externally on Windows, like a word processor (LibreOffice) and an archive manager, among other things.</li>
+    <li class="Text">You can do anything in the system, if you both learn how to use the Bash terminal and have admin privileges. While Windows usually complains about “not having admin privileges” and doesn’t let you do things like delete useless files or move folders to the right place, Ubuntu will let you do whatever you want as long as you type in the command correctly.  </li>
+    <li class="Text">If you know what you are doing, you can directly edit the code in the OS. Ubuntu is written in C, and any bugs or general things you want to change can be patched if you know how. For example, if the touch screen does not work in your computer, you can patch the source code manually instead of having to buy another computer.*
+      <br />
+      <p id="Warning"><i><b>WARNING: With great power comes great responsibility. Ubuntu won’t stop you from deleting every file on your hard drive, from editing crucial binaries, or anything else like that. Therefore, be careful, do your research before typing anything in the terminal, and be very careful before modifying the system in any way.</b></i></p>
+    </li>
+    <li class="Text">Unlike a majority of other OSes, Ubuntu is completely free for download off their website. While one would have to do some very shady and mostly illegal things which we do not condone here at AllTech to get Windows 10 or macOS for free, Ubuntu can be downloaded right off the website and installed. </li>
+    <li class="Text">Linux does not force updates on you the way Microsoft does. If you want an update, you can install it, but if you do not want the update, you can wait until you are ready to update. In addition, if you download an LTS version of Ubuntu (we recommend this!), you will continue to get support for your version of Ubuntu for the next 5 years without having to update. </li>
+    <li class="Text">The shell also comes with many developer tools preinstalled, such as Git and a Python interpreter. However, these things will only matter to developers, and will not affect the average user. </li>
+  </ul>
+  <p class="Text" id="Note">*On the Surface Pro tablet line of devices, the touch screen and pen, as well as the Type Cover, will not work right off the bat. You will need some extra supplies if you use a Surface, and they will be mentioned in the list. Links will also be provided with instructions to fix this, because some very smart people have fixed the issues themselves and released their code to the public for the benefit of other Surface users.</p>
+  <button id="BackToTop" onclick="topFunction()">
+   <strong>
+    Back to top
+   </strong>
+  </button>
+  <script>
+   $("#BackToTop").hide();
+        $(function () {
+          $(window).scroll(function () {
+			      if ($(this).scrollTop() > 10) {
+				      $('#BackToTop').fadeIn();
+			      } else {
+				      $('#BackToTop').fadeOut();
+			      }
+		      });
+		      $('#BackToTop').click(function () {
+			      $('body,html').animate({
+				      scrollTop: 0
+			      }, 800);
+			      return false;
+		      });
+	      });
+  </script>
+ </body>
+</html>
