@@ -4,20 +4,20 @@ bluhhh leave the damn borders alone so I can see where each goddamn image actual
 that have borders you little kurwaa nigger
 */
 
-#iPhoneX, #iPhone8, #Launchers, #RazerPhone, #LGV30 {
+#iPhoneX, #iPhone8, #Launchers, #RazerPhone, #LGV30, #UbuntuWin10 {
   border: 7px solid black;
   border-radius: 10px;
   padding: 10px;
   margin-top: 60px;
 }
 
-#iPhone8, #Launchers, #RazerPhone, #LGV30 {
+#iPhone8, #Launchers, #RazerPhone, #LGV30, #UbuntuWin10 {
   margin-left: 10px;
 }
 
 #iPhoneX {
   float: left;
-  height: 650px;
+  height: 630px;
 }
 
 #iPhone8 {
@@ -38,4 +38,9 @@ that have borders you little kurwaa nigger
 #LGV30 {
   float: left;
   height: 300px;
+}
+
+#UbuntuWin10 {
+  float: left;
+  height: 260px;
 }
