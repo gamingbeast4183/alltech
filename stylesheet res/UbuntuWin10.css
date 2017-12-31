@@ -69,6 +69,14 @@ padding-top: 60px
   color: red;
 }
 
-#Note {
+.Note {
   font-size: 14px;
+}
+
+.List {
+  list-style-type: disc;
+}
+
+.Tab {
+  text-indent:20px 
 }
