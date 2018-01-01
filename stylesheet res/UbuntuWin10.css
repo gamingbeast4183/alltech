@@ -77,7 +77,11 @@ padding-top: 60px
   list-style-type: disc;
 }
 
-.Image {
-  width: 820px;
+.Image-container {
   margin-left: 280px;
+  margin-right: 200px;
+}
+
+.Image {
+  max-width: 100%;
 }
