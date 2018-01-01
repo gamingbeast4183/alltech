@@ -65,7 +65,7 @@ padding-top: 60px
   text-align: justify;
 }
 
-#Warning {
+.Warning {
   color: red;
 }
 
@@ -84,4 +84,9 @@ padding-top: 60px
 
 .Image {
   max-width: 100%;
+}
+
+.Code {
+  font-size: 18px;
+  margin-left: 280px;
 }
