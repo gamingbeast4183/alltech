@@ -1,17 +1,23 @@
-#iPhoneX, #iPhone8, #Launchers, #RazerPhone, #LGV30 {
-  border: 7px solid black;
-  border-radius: 10px;
-  padding: 10px;
+#firstRow > * > img {
   margin-top: 60px;
 }
 
-#iPhone8, #Launchers, #RazerPhone, #LGV30, #UbuntuWin10 {
-  margin-left: 10px;
+#secondRow > * > img {
+  margin-top: 10px;
 }
 
+#images > * > * > img {
+  border: 7px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  float: left;
+  height: 300px;
+}
+/*
 #iPhoneX {
   float: left;
-  height: 630px;
+  height: 300px;
 }
 
 #iPhone8 {
@@ -36,5 +42,6 @@
 
 #UbuntuWin10 {
   float: left;
-  height: 260px;
+  height: 300px;
 }
+*/
