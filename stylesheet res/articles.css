@@ -54,15 +54,16 @@ padding-top: 60px
 
 .Header {
   font-family: "Exo 2", sans-serif;
-  margin-left: 280px;
-  margin-right: 200px;
+  font-size: 35px;
+  margin-left: 400px;
+  margin-right: 380px;
 }
 
 .Text {
   font-family: "Maven Pro", sans-serif;
   font-size: 18px;
-  margin-left: 280px;
-  margin-right: 200px;
+  margin-left: 400px;
+  margin-right: 380px;
   text-align: justify;
 }
 
@@ -76,7 +77,7 @@ padding-top: 60px
 
 .List {
   list-style-type: disc;
-}
+z}
 
 .Image-container {
   margin-left: 280px;
