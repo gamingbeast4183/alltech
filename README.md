@@ -2,5 +2,6 @@
 
 tech blub  
 -sravith the slouch  
--oren the ouch  
 -prem the pouch  
+-vishal the vouch
+-oren the ouch  
