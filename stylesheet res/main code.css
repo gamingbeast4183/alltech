@@ -1,8 +1,8 @@
-#firstRow > * > img {
+#firstRow > a > img {
   margin-top: 60px;
 }
 
-#secondRow > * > img {
+#secondRow > a > img {
   margin-top: 10px;
 }
 
@@ -16,11 +16,11 @@
 }
 
 #images {
-  width: 960px;
   float: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 150px;
+  margin-right: 100px;
 }
+
 /*
 #iPhoneX {
   float: left;
