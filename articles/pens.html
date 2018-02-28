@@ -1,16 +1,76 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <meta charset="utf-8"/>
-  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"/>
   <title>
-   Article 4 Name
+   AllTech Reviews
   </title>
+  <meta charset=UTF-8>
+  <link href="../stylesheet res/navbar-and-b2t.css"
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
  </head>
- <body>
-  <button onclick="window.location.href='https://www.amazon.com/'">
-   Buy Now!
+ <body style="background-color: #F4F6F6;">
+  <div id="navbar">
+   <ul class="horizontal" id="nav">
+    <a href="../website res/main code.html">
+     <img id="logo" src="../image res/alltech banner.png"/>
+    </a>
+    <div id="navlinks">
+     <li>
+      <a href="../website res/smartphones.html">
+       Smartphones
+      </a>
+     </li>
+     <li>
+      <a href="../website res/computers.html">
+       Computers
+      </a>
+     </li>
+     <li>
+      <a href="../website res/apps.html">
+       Epic App Battles of History
+      </a>
+     </li>
+     <li>
+      <a href="../website res/tutorials-genericinfo.html">
+       Tutorials
+      </a>
+     </li>
+    </div>
+   </ul>
+  </div>
+
+  <!--
+  ADD STUFF AND THINGS HERE; DELETE THiS COMMENT ONCE STUFF AND THINGS ADDED
+
+
+
+
+
+  -->
+
+  <button id="BackToTop" onclick="topFunction()">
+   <strong>
+    Back to top
+   </strong>
   </button>
+  <script>
+   $("#BackToTop").hide();
+        $(function () {
+          $(window).scroll(function () {
+			      if ($(this).scrollTop() > 10) {
+				      $('#BackToTop').fadeIn();
+			      } else {
+				      $('#BackToTop').fadeOut();
+			      }
+		      });
+		      $('#BackToTop').click(function () {
+			      $('body,html').animate({
+				      scrollTop: 0
+			      }, 800);
+			      return false;
+		      });
+	      });
+  </script>
  </body>
 </html>
