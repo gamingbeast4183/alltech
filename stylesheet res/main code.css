@@ -1,5 +1,5 @@
 #firstRow > a > img {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 #secondRow > a > img {
@@ -15,9 +15,14 @@
   height: 287px;
 }
 
+/*
+
+*/
+
 #images {
   float: center;
-  margin-left: 150px;
+  margin-left: 100px;
+
   margin-right: 100px;
 }
 
