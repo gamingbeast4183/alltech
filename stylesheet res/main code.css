@@ -7,22 +7,34 @@
 }
 
 #images > * > * > img {
-  border: 7px solid black;
-  border-radius: 10px;
   padding: 10px;
-  margin-left: 10px;
   float: left;
-  height: 287px;
 }
-
-/*
-
-*/
 
 #images {
   float: center;
-  margin-left: 30px;
+  margin-left: 100px;
   margin-right: 100px;
+}
+
+#Chromebook {
+  background-color: #000000;
+  height: 50%;
+}
+
+#UbuntuWin10 {
+  background-color: #444444;
+  height: 50%;
+}
+
+#Launchers {
+  background-color: #DDDDDD;
+  height: 50%;
+}
+
+#Pens {
+  background-color: #000000;
+  height: 50%;
 }
 
 /*
@@ -47,11 +59,6 @@
 }
 
 #LGV30 {
-  float: left;
-  height: 300px;
-}
-
-#UbuntuWin10 {
   float: left;
   height: 300px;
 }

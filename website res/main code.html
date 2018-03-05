@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html>
- <head>
+
+<head>
   <title>AllTech Reviews</title>
   <meta charset=UTF-8>
   <meta name="viewport" content="width=device-width, initial scale=1.0">
-  <link href="../stylesheet res/navbar-and-b2t.css" rel="stylesheet"/>
-  <link href="../stylesheet res/main code.css" rel="stylesheet"/>
-  <link href="../stylesheet res/queries.css" rel="stylesheet"/>
-  <link rel="icon" href="../favicon.png" type="image/png"/>
+  <link href="../stylesheet res/navbar-and-b2t.css" rel="stylesheet" />
+  <link href="../stylesheet res/main code.css" rel="stylesheet" />
+  <link href="../stylesheet res/queries.css" rel="stylesheet" />
+  <link rel="icon" href="../favicon.png" type="image/png" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </script>
- </head>
- <body style="background-color: #F4F6F6;">
+</head>
+
+<body style="background-color: #F4F6F6;">
   <div id="navbar">
-   <ul class="horizontal" id="nav">
-    <a href="../website res/main code.html">
+    <ul class="horizontal" id="nav">
+      <a href="../website res/main code.html">
      <img id="logo" src="../image res/alltech banner.png"/>
     </a>
-    <div id="navlinks">
-     <li>
-      <a href="../website res/smartphones.html">
+      <div id="navlinks">
+        <li>
+          <a href="../website res/smartphones.html">
        Smartphones
       </a>
-     </li>
-     <li>
-      <a href="../website res/computers.html">
+        </li>
+        <li>
+          <a href="../website res/computers.html">
        Computers
       </a>
-     </li>
-     <li>
-      <a href="../website res/apps.html">
+        </li>
+        <li>
+          <a href="../website res/apps.html">
        Epic App Battles of History
       </a>
-     </li>
-     <li>
-      <a href="../website res/tutorials-genericinfo.html">
+        </li>
+        <li>
+          <a href="../website res/tutorials-genericinfo.html">
        Tutorials
       </a>
-     </li>
-    </div>
-   </ul>
+        </li>
+      </div>
+    </ul>
   </div>
-<!--
+  <!--
   <div class="wrap">
     <div class="search">
    		<input type="text" class="searchTerm" placeholder="What are you looking for?">
@@ -53,18 +55,19 @@
 -->
   <div id="images">
     <div id="firstRow">
+      <a href="../articles/pens.html">
+        <img id="Pens" src="../image res/pens.png"/>
+      </a>
+      <a href="../articles/Chromebook.html">
+       <img id="Chromebook" src="../image res/chromebook.png"/>
+      </a>
       <a href="../articles/Launchers.html">
        <img id="Launchers" src="../image res/launchers.png"/>
       </a>
       <a href="../articles/UbuntuWin10.html">
        <img id="UbuntuWin10" align="left" height="300" src="../image res/UbuntuWin10.png"/>
       </a>
-      <a href="../articles/Chromebook.html">
-       <img id="Chromebook" src="../image res/chromebook.png"/>
-      </a>
-      <a href="../articles/pens.html">
-      <img id="pens" src="../image res/pens.png"/>
-    </a>
+
     </div>
     <div id="secondRow"></div>
   </div>
@@ -74,22 +77,23 @@
     </strong>
   </button>
   <script>
-   $("#BackToTop").hide();
-        $(function () {
-          $(window).scroll(function () {
-			      if ($(this).scrollTop() > 10) {
-				      $('#BackToTop').fadeIn();
-			      } else {
-				      $('#BackToTop').fadeOut();
-			      }
-		      });
-		      $('#BackToTop').click(function () {
-			      $('body,html').animate({
-				      scrollTop: 0
-			      }, 800);
-			      return false;
-		      });
-	      });
+    $("#BackToTop").hide();
+    $(function() {
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 10) {
+          $('#BackToTop').fadeIn();
+        } else {
+          $('#BackToTop').fadeOut();
+        }
+      });
+      $('#BackToTop').click(function() {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 800);
+        return false;
+      });
+    });
   </script>
- </body>
+</body>
+
 </html>
