@@ -8,16 +8,11 @@
 
 #images > * > * > img {
   border: 7px solid black;
-  border-radius: 10px;
   padding: 10px;
   margin-left: 10px;
   float: left;
   height: 287px;
 }
-
-/*
-
-*/
 
 #images {
   float: center;
